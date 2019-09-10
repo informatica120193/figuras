@@ -12,7 +12,16 @@ package figuras.model;
 public abstract class Figura {
     private Punto puntoA;
     private Punto puntoB;
+    
+    /**
+     * Calcular el area de la figura instanciada
+     * @return 
+     */
     public abstract Double calcularArea();
+    /**
+     * Calcular el perimetro de la figura instanciada
+     * @return 
+     */
     public abstract Double calcularPerimetro();
 
     public Punto getPuntoA() {
